@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine;
 using UnityEngine.XR.Interaction.Toolkit;
 
 public class LocomotionController : MonoBehaviour
@@ -10,7 +9,6 @@ public class LocomotionController : MonoBehaviour
     public XRController rightTeleportRay;
     public InputHelpers.Button teleportActivationButton;
     public float acticationThreshTold = 0.1f;
-
 
 
     // Update is called once per frame
@@ -22,7 +20,7 @@ public class LocomotionController : MonoBehaviour
         }
         if (rightTeleportRay)
         {
-            leftTeleportRay.gameObject.SetActive(CheckIfActivated(rightTeleportRay));
+            rightTeleportRay.gameObject.SetActive(CheckIfActivated(rightTeleportRay));
         }
     }
 
