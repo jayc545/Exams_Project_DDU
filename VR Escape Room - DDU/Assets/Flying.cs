@@ -20,5 +20,6 @@ public class Flying : MonoBehaviour
     {
         transform.Rotate(Vector3.up, itemRotationSpeed/2 * Time.deltaTime, Space.World);
         transform.position = basePosition + new Vector3(3.221f, 1.26f + 0.25f * Mathf.Cos(Time.time * itemBobSpeed), 0f);
+                
     }
 }
