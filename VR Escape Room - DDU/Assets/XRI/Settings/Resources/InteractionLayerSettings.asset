@@ -14,14 +14,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_LayerNames:
   - Default
-  - 1block
-  - 2block
-  - 3block
-  - 4block
-  - 5block
-  - 6block
-  - 7block
-  - 8block
+  - Teleport Area
+  - Cubes
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
   - 
   - 
   - 
