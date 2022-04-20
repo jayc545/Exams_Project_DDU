@@ -16,10 +16,10 @@ MonoBehaviour:
   - Default
   - Teleport Area
   - Cubes
+  - Grabbable
+  - UI
   - 
-  - RED
-  - YELLOW
-  - GREEN
+  - 
   - 
   - 
   - 

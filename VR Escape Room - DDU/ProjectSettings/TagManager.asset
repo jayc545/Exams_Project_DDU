@@ -4,24 +4,25 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - yellow
+  - Ignite
   - green
+  - yellow
   - red
-  - purple
   - blue
+  - purple
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - Grab
+  - 
   - Water
   - UI
+  - 
+  - 
+  - Grabbable
   - Hands
-  - Interactive
-  - Typing Hands
-  - Keyboard
-  - 
-  - 
+  - Teleporter
+  - NoHandCollide
   - 
   - 
   - 

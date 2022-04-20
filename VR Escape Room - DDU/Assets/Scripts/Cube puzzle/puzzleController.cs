@@ -10,8 +10,6 @@ public class puzzleController : MonoBehaviour
     [SerializeField] private int currentlyCompletedTasks = 0;
 
     [Header("Completion Events")]
-    public UnityEvent onPuzzleCompletion;
-
     [SerializeField] ParticleSystem Particle1 = null;
     [SerializeField] ParticleSystem Particle2 = null;
     [SerializeField] MeshRenderer winText = null;
