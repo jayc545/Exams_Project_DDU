@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: Assets/SCENES/Start Menu 1.unity
     guid: dde98611865c382458617d415f372bdc
   - enabled: 1
-    path: Assets/SCENES/Sprint 3.unity
+    path: Assets/SCENES/Sprint 2 Improved.unity
     guid: 8e630df210a59a746a3ac357cbfdc2fc
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 398d945149746a94899cafbfeddf8c9f,
