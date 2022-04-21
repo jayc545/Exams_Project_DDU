@@ -13,13 +13,15 @@ public class puzzleController : MonoBehaviour
     [SerializeField] ParticleSystem Particle1 = null;
     [SerializeField] ParticleSystem Particle2 = null;
     [SerializeField] MeshRenderer winText = null;
+    [SerializeField] GameObject Tablet = null;
 
 
     public void TaskDone()
     {
-        winText.enabled = true; 
+        //winText.enabled = true; 
         Particle1.Play();
         Particle2.Play();
+        Tablet.SetActive(true);
     }
 
     public void CompletedPuzzleTasks()

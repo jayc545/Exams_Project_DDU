@@ -22,7 +22,7 @@ public class Timer : MonoBehaviour
     void Update()
     {
         currentTime -= 1 * Time.deltaTime;
-        countDownText.text = "Timer"+currentTime.ToString("0");
+        countDownText.text = "Timer    "+currentTime.ToString("0");
 
         if(currentTime <= 0)
         {
