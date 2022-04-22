@@ -18,9 +18,12 @@ public class puzzleController : MonoBehaviour
 
     public void TaskDone()
     {
+        ////THIS WAS USED FROM THE TESTING
         //winText.enabled = true; 
-        Particle1.Play();
-        Particle2.Play();
+        //Particle1.Play();
+        //Particle2.Play();
+
+        //Spawns the obejct or enables the gameObject.
         Tablet.SetActive(true);
     }
 

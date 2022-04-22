@@ -26,7 +26,9 @@ public class KeyPadController : MonoBehaviour
     [Space(5f)]
 
     [Header("Other Objects")]
-    public TMP_Text thing;
+
+    [SerializeField] private AudioSource CorrectSoundEffect;
+    public TMP_Text KeyCodeText;
     private string userInput = "";
     [SerializeField] private TMP_InputField codeDisplay;
     [SerializeField] private float resetTime = 1f;
@@ -56,8 +58,8 @@ public class KeyPadController : MonoBehaviour
         map.Add("F", 20542); map.Add("G", 93487); map.Add("H", 65647); map.Add("I", 35822); map.Add("J", 23451);
         map.Add("K", 51274); map.Add("L", 88730); map.Add("M", 17350); map.Add("N", 17350); map.Add("O", 05039);
 
-        int result = map["A"];
-        var myKey = map.FirstOrDefault(x => x.Value == 04061).Key;
+       int result = map["O"];
+       var myKey = map.FirstOrDefault(x => x.Value == 05039).Key;
         
         ///// Tester of the map, getting the key and key-value.
        // Debug.Log(" The First Code  :" + result + "    And Value of the First Code thing the Key : " + myKey);
@@ -74,7 +76,7 @@ public class KeyPadController : MonoBehaviour
 
         //Shows the Keycode to the Keypad.
         /////TODO Make the translator thing
-        thing.text = key;
+        KeyCodeText.text = "Keycard -" + key;
     }
 
 
@@ -114,7 +116,8 @@ public class KeyPadController : MonoBehaviour
         {
             onCorrectPassword.Invoke();
             codeDisplay.text = succesText;
-            doorHandleCollider.enabled = true;
+            doorHandleCollider.enabled = true; // The Door handle is enable.
+            CorrectSoundEffect.playOnAwake =true;
 
             StartCoroutine(ResetKeycode());
         }

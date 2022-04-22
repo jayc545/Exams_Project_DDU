@@ -22,8 +22,8 @@ public class Timer : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        currentTime -= 1 * Time.deltaTime;
-        countDownText.text = "Timer    "+currentTime.ToString("0");
+        currentTime += 1 * Time.deltaTime;
+        countDownText.text = currentTime.ToString("0");
 
         if(currentTime <= 0)
         {
