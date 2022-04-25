@@ -3199,7 +3199,7 @@ PrefabInstance:
     - target: {fileID: 1916186158048787422, guid: cb59b5f7a22c8134d8ba68d36889a5b0,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.01
+      value: -0.098
       objectReference: {fileID: 0}
     - target: {fileID: 1916186158048787422, guid: cb59b5f7a22c8134d8ba68d36889a5b0,
         type: 3}
@@ -3209,12 +3209,12 @@ PrefabInstance:
     - target: {fileID: 1916186158048787422, guid: cb59b5f7a22c8134d8ba68d36889a5b0,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -1.96
+      value: -0.769
       objectReference: {fileID: 0}
     - target: {fileID: 1916186158048787422, guid: cb59b5f7a22c8134d8ba68d36889a5b0,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.618063
+      value: 0.9998696
       objectReference: {fileID: 0}
     - target: {fileID: 1916186158048787422, guid: cb59b5f7a22c8134d8ba68d36889a5b0,
         type: 3}
@@ -3224,7 +3224,7 @@ PrefabInstance:
     - target: {fileID: 1916186158048787422, guid: cb59b5f7a22c8134d8ba68d36889a5b0,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.78612864
+      value: 0.016155312
       objectReference: {fileID: 0}
     - target: {fileID: 1916186158048787422, guid: cb59b5f7a22c8134d8ba68d36889a5b0,
         type: 3}
@@ -3239,12 +3239,17 @@ PrefabInstance:
     - target: {fileID: 1916186158048787422, guid: cb59b5f7a22c8134d8ba68d36889a5b0,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 103.65
+      value: 1.851
       objectReference: {fileID: 0}
     - target: {fileID: 1916186158048787422, guid: cb59b5f7a22c8134d8ba68d36889a5b0,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1916186158048787423, guid: cb59b5f7a22c8134d8ba68d36889a5b0,
+        type: 3}
+      propertyPath: m_RequestedTrackingOriginMode
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8402722770394085639, guid: cb59b5f7a22c8134d8ba68d36889a5b0,
         type: 3}

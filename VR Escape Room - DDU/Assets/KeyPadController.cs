@@ -76,7 +76,7 @@ public class KeyPadController : MonoBehaviour
 
         //Shows the Keycode to the Keypad.
         /////TODO Make the translator thing
-        KeyCodeText.text = "Keycard -" + key;
+        KeyCodeText.text = "Keycard :  " + key;
     }
 
 
